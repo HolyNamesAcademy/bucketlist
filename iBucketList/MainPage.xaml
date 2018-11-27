@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:iBucketList" x:Class="iBucketList.MainPage">
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="BucketList!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label Text="BucketList!" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
     </StackLayout>
 </ContentPage>
+
+<!--hello-->
