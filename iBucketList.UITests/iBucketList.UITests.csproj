@@ -38,6 +38,10 @@
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
+    <ProjectReference Include="..\iBucketList\iBucketList.csproj">
+      <Project>{EAC433D9-BCD3-40D4-8140-B01880469F59}</Project>
+      <Name>iBucketList</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tests.cs" />
