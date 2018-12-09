@@ -7,31 +7,19 @@ using Xamarin.UITest.Queries;
 
 namespace iBucketList.UITests
 {
-    [TestFixture(Platform.Android)]
-    [TestFixture(Platform.iOS)]
+    [TestFixture]
     public class Tests
     {
-        IApp app;
-        Platform platform;
-
-        public Tests(Platform platform)
+        [Test]
+        public void AzurePipelinesValidationTest()
         {
-            this.platform = platform;
-        }
-
-        [SetUp]
-        public void BeforeEachTest()
-        {
-            app = AppInitializer.StartApp(platform);
+            Assert.AreEqual(1, 1);
         }
 
         [Test]
-        public void WelcomeTextIsDisplayed()
+        public void AzurePipelinesValidationTestThatFails()
         {
-            AppResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
-            app.Screenshot("Welcome screen.");
-
-            Assert.IsTrue(results.Any());
+            Assert.AreEqual(1, 2);
         }
     }
 }
