@@ -4,8 +4,6 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.Android", "iBucketList.Android\iBucketList.Android.csproj", "{5E27B287-0AD1-4414-B353-62DE8169AC29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.UITests", "iBucketList.UITests\iBucketList.UITests.csproj", "{B19C892E-2628-4CA7-AD27-08D406A3B14B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iBucketList", "iBucketList\iBucketList.csproj", "{EAC433D9-BCD3-40D4-8140-B01880469F59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.UnitTests", "iBucketList.UnitTests\iBucketList.UnitTests.csproj", "{CE077C57-17C5-4002-91AE-6960FB2929F0}"
@@ -20,10 +18,6 @@ Global
 		{5E27B287-0AD1-4414-B353-62DE8169AC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E27B287-0AD1-4414-B353-62DE8169AC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E27B287-0AD1-4414-B353-62DE8169AC29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EAC433D9-BCD3-40D4-8140-B01880469F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EAC433D9-BCD3-40D4-8140-B01880469F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC433D9-BCD3-40D4-8140-B01880469F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
