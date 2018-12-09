@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\iBucketList\iBucketList.csproj" />
+    <ProjectReference Include="..\iBucketList.Core\iBucketList.Core.csproj" />
   </ItemGroup>
 
 </Project>
