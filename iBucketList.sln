@@ -1,11 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.Android", "iBucketList.Android\iBucketList.Android.csproj", "{5E27B287-0AD1-4414-B353-62DE8169AC29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.UITests", "iBucketList.UITests\iBucketList.UITests.csproj", "{B19C892E-2628-4CA7-AD27-08D406A3B14B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iBucketList", "iBucketList\iBucketList.csproj", "{EAC433D9-BCD3-40D4-8140-B01880469F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList", "iBucketList\iBucketList.csproj", "{EAC433D9-BCD3-40D4-8140-B01880469F59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.UnitTests", "iBucketList.UnitTests\iBucketList.UnitTests.csproj", "{CE077C57-17C5-4002-91AE-6960FB2929F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.Core", "iBucketList.Core\iBucketList.Core.csproj", "{A900ABA1-2BAC-4C82-BF15-7ACBFB3A2FE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +20,23 @@ Global
 		{5E27B287-0AD1-4414-B353-62DE8169AC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E27B287-0AD1-4414-B353-62DE8169AC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E27B287-0AD1-4414-B353-62DE8169AC29}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EAC433D9-BCD3-40D4-8140-B01880469F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EAC433D9-BCD3-40D4-8140-B01880469F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAC433D9-BCD3-40D4-8140-B01880469F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAC433D9-BCD3-40D4-8140-B01880469F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE077C57-17C5-4002-91AE-6960FB2929F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE077C57-17C5-4002-91AE-6960FB2929F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE077C57-17C5-4002-91AE-6960FB2929F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE077C57-17C5-4002-91AE-6960FB2929F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A900ABA1-2BAC-4C82-BF15-7ACBFB3A2FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A900ABA1-2BAC-4C82-BF15-7ACBFB3A2FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A900ABA1-2BAC-4C82-BF15-7ACBFB3A2FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A900ABA1-2BAC-4C82-BF15-7ACBFB3A2FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {822A2709-2291-490A-9CD4-CFA72EDE899B}
 	EndGlobalSection
 EndGlobal
