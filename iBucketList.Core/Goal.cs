@@ -3,12 +3,14 @@ namespace iBucketList
 {
     public class Goal
     {
-        String title;
-        String description;
-        DateTime deadline;
+        public string title;
+        public string description;
+        public DateTime deadline;
+
         public Goal()
         {
-
         }
+
     }
+
 }
