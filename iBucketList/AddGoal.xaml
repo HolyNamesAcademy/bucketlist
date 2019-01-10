@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:iBucketList" x:Class="iBucketList.AddGoal">
+    <StackLayout>
+        <!-- Place new controls here -->
+          <Label Text="Let's make a goal!" HorizontalOptions="Center"/>
+      
+        <Label Text="Goal name:" />
+      <Entry x:Name="goalNameText" Text="" />
+      
+        <Label Text="Goal description:" />
+      <Entry x:Name="goalDescriptionText" Text="" /> 
+     
+        <Label Text="Goal deadline:" />
+      <Entry x:Name="goaldeadlineText" Text="" />
+      
+      <!--
+        <Button Text="Add Goal" Clicked="AddGoal" /> -->
+    </StackLayout>
+</ContentPage>
