@@ -13,5 +13,12 @@ namespace iBucketList
         {
             InitializeComponent();
         }
+
+        async void ShowAddGoalPopup(object sender, SelectedItemChangedEventArgs e)
+        {
+            var detailPage = new AddGoal();
+            await Navigation.PushModalAsync(detailPage);
+        }
     }
-}//hi 
+
+}
