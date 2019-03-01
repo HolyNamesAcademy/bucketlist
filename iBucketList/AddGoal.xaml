@@ -15,8 +15,7 @@
         
     <Button Text="Cancel" Clicked="OnDismissButtonClicked" />
       
-      <!--
-        <Button Text="Add Goal" Clicked="AddGoal" /> -->
+     <Button Text="Add Goal" Clicked="CreateGoal" />
     </StackLayout>
 </ContentPage>
 
