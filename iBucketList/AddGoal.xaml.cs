@@ -21,7 +21,7 @@ namespace iBucketList
             {
                 title = this.goalNameText.Text,
                 description = this.goalDescriptionText.Text,
-                //deadline = this.goaldeadlineText.Date
+                deadline = this.goaldeadlineText.Date
             };
             AppState.goals.AddGoal(goal);
             await Navigation.PopModalAsync();
@@ -33,5 +33,3 @@ namespace iBucketList
 
 //corresponds to the modal
 //describing the pop-up
-
-   //need to make date into date time from string
