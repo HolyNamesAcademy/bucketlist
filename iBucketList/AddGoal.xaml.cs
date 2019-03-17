@@ -23,7 +23,8 @@ namespace iBucketList
                 description = this.goalDescriptionText.Text,
                 deadline = this.goaldeadlineText.Date
             };
-            AppState.goals.AddGoal(goal);
+
+            await AppState.Goals.AddAsync(goal);
             await Navigation.PopModalAsync();
         }
 
