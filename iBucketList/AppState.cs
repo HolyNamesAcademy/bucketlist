@@ -3,6 +3,6 @@ namespace iBucketList
 {
     public static class AppState
     {
-        public static ArrayListofItems goals = new ArrayListofItems();
+        public static PersistedList<Goal> Goals = new PersistedList<Goal>("goals");
     }
 }
