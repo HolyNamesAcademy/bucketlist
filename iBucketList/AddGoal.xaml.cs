@@ -25,6 +25,7 @@ namespace iBucketList
             };
 
             await AppState.Goals.AddAsync(goal);
+
             await Navigation.PopModalAsync();
         }
 

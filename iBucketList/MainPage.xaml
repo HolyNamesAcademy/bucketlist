@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:iBucketList" x:Class="iBucketList.MainPage">
-    <StackLayout>
+    <!--<StackLayout>
                <Label Text="Bucket List!" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
                 <Button Text="Create Goal" Clicked="ShowAddGoalPopup" />
 
 
          
     </StackLayout>
+    -->
+    <ListView x:Name= "GoalsList" >
+        <ListView.Header>
+            <StackLayout>
+               <Label Text="Bucket List!" HorizontalOptions="Center" VerticalOptions="StartAndExpand" />
+               <Button Text="Create Goal" Clicked="ShowAddGoalPopup" />
+            </StackLayout>
+        </ListView.Header>
+        
+       <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{x:Binding title}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
 </ContentPage>
 
-<!--hello-->
 
 
 
-<!--create button here-->

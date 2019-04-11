@@ -4,11 +4,11 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.Android", "iBucketList.Android\iBucketList.Android.csproj", "{5E27B287-0AD1-4414-B353-62DE8169AC29}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iBucketList", "iBucketList\iBucketList.csproj", "{EAC433D9-BCD3-40D4-8140-B01880469F59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList", "iBucketList\iBucketList.csproj", "{EAC433D9-BCD3-40D4-8140-B01880469F59}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iBucketList.UnitTests", "iBucketList.UnitTests\iBucketList.UnitTests.csproj", "{CE077C57-17C5-4002-91AE-6960FB2929F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iBucketList.Core", "iBucketList.Core\iBucketList.Core.csproj", "{A900ABA1-2BAC-4C82-BF15-7ACBFB3A2FE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iBucketList.Core", "iBucketList.Core\iBucketList.Core.csproj", "{A900ABA1-2BAC-4C82-BF15-7ACBFB3A2FE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
