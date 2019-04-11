@@ -17,7 +17,7 @@ namespace iBucketList
             InitializeComponent();
 
 
-            this.GoalsList.ItemsSource = AppState.goals;
+            this.GoalsList.ItemsSource = AppState.Goals.InnerList;
 
 
         }
