@@ -18,8 +18,6 @@ namespace iBucketList
 
 
             this.GoalsList.ItemsSource = AppState.Goals.InnerList;
-
-
         }
 
         async void ShowAddGoalPopup(object sender, SelectedItemChangedEventArgs e)
@@ -27,6 +25,12 @@ namespace iBucketList
             var detailPage = new AddGoal();
             await Navigation.PushModalAsync(detailPage);
         }
+
+        public void TapToDelete(object sender, ItemTappedEventArgs args)
+        {
+            AppState.Goals.InnerList.Remove((Goal)args.Item);
+        }
     }
 
 }
+
